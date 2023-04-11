@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+:root {
+  --light-purple: #c9c9ff;
+  --dark-purple: #a8a4ff;
+  --apricot-pastel: #ffbdbd;
+  --apricot: #ff9898;
+  --bg-green: #e1f7d5;
+  --plum: #f1cbff;
+  --background-color: #dcd0c0;
+  --bg-lines: #3e3f4e;
+  --text-gray: #828fa3;
+  --text-lines: #e4ebfa;
+  --text-dimmed: #f4f7fd;
+  --text: #ffffff;
+}
+
+body {
+  background-color: var(--background-color);
+}
