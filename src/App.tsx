@@ -4,19 +4,21 @@ import "./App.scss";
 
 export default function App() {
   return (
-    <div className="intro-container">
-      <img className="headshot" src={headshot} alt="" width={250} />
-      <div className="about-me-container">
-        <h1>Lorem ipsum dolor sit amet.</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A veritatis,
-          quis necessitatibus quidem officia aut consectetur, maxime illum
-          asperiores itaque atque, suscipit assumenda! Vel inventore quam
-          debitis omnis esse voluptatem delectus voluptates magni accusantium?
-          Tenetur atque non molestias voluptatum perferendis, vitae ab
-          perspiciatis aliquid alias quis quisquam consequatur temporibus
-          eligendi.
-        </p>
+    <div className="main-container">
+      <div className="intro-container">
+        <img className="headshot" src={headshot} alt="" width={250} />
+        <div className="about-me-container">
+          <h1>Lorem ipsum dolor sit amet.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+            veritatis, quis necessitatibus quidem officia aut consectetur,
+            maxime illum asperiores itaque atque, suscipit assumenda! Vel
+            inventore quam debitis omnis esse voluptatem delectus voluptates
+            magni accusantium? Tenetur atque non molestias voluptatum
+            perferendis, vitae ab perspiciatis aliquid alias quis quisquam
+            consequatur temporibus eligendi.
+          </p>
+        </div>
       </div>
 
       <div className="kompetenser">
@@ -37,6 +39,26 @@ export default function App() {
           <p>Node.js</p>
           <p>MongoDB</p>
           <p>Express</p>
+        </div>
+      </div>
+
+      <div className="projects">
+        <h1>Projects</h1>
+        <div className="projexts-container">
+          <div className="spotify">
+            hej
+            <img src="" alt="" />
+          </div>
+
+          <div className="kanban">
+            hej
+            <img src="" alt="" />
+          </div>
+
+          <div className="klarna">
+            hej
+            <img src="" alt="" />
+          </div>
         </div>
       </div>
     </div>

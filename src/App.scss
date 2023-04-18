@@ -1,4 +1,67 @@
+.intro-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  img {
+    // border: 10px solid var(--dark-purple);
+    border-radius: 50% 20%;
+    border: 2px solid var(--dark-purple);
+  }
+
+  .about-me-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    margin: 15px;
+  }
+}
+
 .kompetenser {
   display: flex;
   flex-direction: column;
+
+  p {
+    border: 1px solid var(--dark-purple);
+    width: fit-content;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h1 {
+    border-bottom: 1px solid var(--dark-purple);
+    margin-bottom: 15px;
+  }
+
+  .projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    height: 250px;
+    width: 300px;
+    margin: 5px;
+  }
+  .spotify {
+    background-color: var(--apricot);
+  }
+  .kanban {
+    background-color: var(--light-purple);
+  }
+  .klarna {
+    background-color: var(--plum);
+  }
 }

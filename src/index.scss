@@ -10,9 +10,10 @@
   --dark-purple: #a8a4ff;
   --apricot-pastel: #ffbdbd;
   --apricot: #ff9898;
-  --bg-green: #e1f7d5;
+  --green: #e1f7d5;
   --plum: #f1cbff;
   --background-color: #dcd0c0;
+  --grey: #474747;
   --bg-lines: #3e3f4e;
   --text-gray: #828fa3;
   --text-lines: #e4ebfa;
@@ -21,5 +22,5 @@
 }
 
 body {
-  background-color: var(--background-color);
+  background-color: var(--grey);
 }
